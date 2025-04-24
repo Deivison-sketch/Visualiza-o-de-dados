@@ -1,5 +1,21 @@
+# Python
 __pycache__/
 *.pyc
-db/*.db
-.env
+*.pyo
+*.pyd
+env/
+.venv/
+*.env
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
 .DS_Store
+Thumbs.db
+
+# Banco de dados SQLite (se não quiser que o banco seja ignorado)
+# db/*.db
+
